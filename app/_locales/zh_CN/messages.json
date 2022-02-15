@@ -1,36 +1,36 @@
 {
   "QRHardwareInvalidTransactionTitle": {
-    "message": "非法交易"
+    "message": "错误"
   },
   "QRHardwareMismatchedSignId": {
-    "message": "扫描的签名二维码不属于当前交易，请检查交易详情后重试。"
+    "message": "不一致的交易数据。请查看交易详情。"
   },
   "QRHardwarePubkeyAccountOutOfRange": {
-    "message": "暂无更多账户，若想切换到其他账户，请在硬件钱包中选择想要的账户重新同步。"
+    "message": "暂无更多账户。若想访问下方未列出的其他账户，请重新连接您的硬件钱包并选择它。"
   },
   "QRHardwareScanInstructions": {
-    "message": "为了保护您的隐私，屏幕是模糊的，但不影响对二维码的读取。"
+    "message": "将二维码放在摄像头前。屏幕是模糊的，但不影响对二维码的读取。"
   },
   "QRHardwareSignRequestCancel": {
-    "message": "拒绝该交易"
+    "message": "拒绝"
   },
   "QRHardwareSignRequestDescription": {
-    "message": "硬件钱包扫描上方二维码完成签名后，点击“获取签名”按钮扫描已签名的二维码"
+    "message": "使用钱包签名后，点击“获取签名”以接收签名"
   },
   "QRHardwareSignRequestGetSignature": {
     "message": "获取签名"
   },
   "QRHardwareSignRequestSubtitle": {
-    "message": "用硬件钱包扫描二维码"
+    "message": "用您的钱包扫描二维码"
   },
   "QRHardwareSignRequestTitle": {
-    "message": "获取签名"
+    "message": "请求签名"
   },
   "QRHardwareUnknownQRCodeTitle": {
-    "message": "非法二维码"
+    "message": "错误"
   },
   "QRHardwareUnknownWalletQRCode": {
-    "message": "请扫描硬件钱包的同步二维码。"
+    "message": "无效的二维码。请扫描硬件钱包的同步二维码。"
   },
   "QRHardwareWalletImporterTitle": {
     "message": "扫描二维码"
@@ -39,7 +39,7 @@
     "message": "该类硬件钱包通过二维码实现通讯交互，做到完全脱网。官方支持的钱包有："
   },
   "QRHardwareWalletSteps1Title": {
-    "message": "基于 QR 的硬件钱包"
+    "message": "基于二维码的硬件钱包"
   },
   "QRHardwareWalletSteps2Description": {
     "message": "AirGap Vault & Ngrave (即将上线)"
@@ -71,14 +71,14 @@
     "message": "账户名称"
   },
   "accountNameDuplicate": {
-    "message": "此帐户名称已存在",
+    "message": "此账户名称已存在",
     "description": "This is an error message shown when the user enters a new account name that matches an existing account name"
   },
   "accountOptions": {
     "message": "账户选项"
   },
   "accountSelectionRequired": {
-    "message": "您需要选择一个账户 ！"
+    "message": "您需要选择一个账户！"
   },
   "active": {
     "message": "当前"
@@ -99,7 +99,7 @@
     "message": "添加昵称"
   },
   "addAcquiredTokens": {
-    "message": "在 MetaMask 上添加获得的代币"
+    "message": "添加您使用 MetaMask 获得的代币"
   },
   "addAlias": {
     "message": "添加别名"
@@ -111,17 +111,17 @@
     "message": "添加自定义代币"
   },
   "addCustomTokenByContractAddress": {
-    "message": "找不到代币？您可以通过粘贴地址手动添加任何代币。代币合同地址可以在$1上找到。",
+    "message": "找不到代币？您可以通过粘贴其地址手动添加任何代币。代币合约地址可以在 $1 上找到。",
     "description": "$1 is a blockchain explorer for a specific network, e.g. Etherscan for Ethereum"
   },
   "addEthereumChainConfirmationDescription": {
-    "message": "这将允许在MetaMask中使用此网络。"
+    "message": "这将允许在 MetaMask 中使用此网络。"
   },
   "addEthereumChainConfirmationRisks": {
-    "message": "MetaMask不验证自定义网络。"
+    "message": "MetaMask 不验证自定义网络。"
   },
   "addEthereumChainConfirmationRisksLearnMore": {
-    "message": "了解$1。",
+    "message": "了解 $1。",
     "description": "$1 is a link with text that is provided by the 'addEthereumChainConfirmationRisksLearnMoreLink' key"
   },
   "addEthereumChainConfirmationRisksLearnMoreLink": {
@@ -144,10 +144,10 @@
     "message": "添加推荐代币"
   },
   "addToAddressBook": {
-    "message": "添加地址簿"
+    "message": "添加到地址簿"
   },
   "addToAddressBookModalPlaceholder": {
-    "message": "如：John D."
+    "message": "例如：John D。"
   },
   "addToken": {
     "message": "添加代币"
@@ -165,10 +165,10 @@
     "message": "当您的交易被包含在区块中，您的最大基础费用与实际基本费用之间的任何差额将被退还。 总金额按最大基费计算(GWEI) *燃料限额。"
   },
   "advancedGasFeeDefaultOptIn": {
-    "message": "保存$1为“高级”默认值"
+    "message": "将这些 $1 保存为“高级”默认值"
   },
   "advancedGasFeeDefaultOptOut": {
-    "message": "总是使用这些值和高级设置为默认值。"
+    "message": "始终使用这些值和高级设置作为默认值。"
   },
   "advancedGasFeeModalTitle": {
     "message": "高级燃料费"
@@ -189,16 +189,16 @@
     "message": "聚集器网络手续费"
   },
   "alertDisableTooltip": {
-    "message": "这个可以在“设置 > 提醒”中进行更改"
+    "message": "这可以在“设置 > 提醒”中进行更改"
   },
   "alertSettingsUnconnectedAccount": {
-    "message": "选择了未连接的账户时浏览网站"
+    "message": "浏览网站时选择的账户未连接"
   },
   "alertSettingsUnconnectedAccountDescription": {
     "message": "当您在浏览已连接的 Web3 网站，但当前选择的账户没有连接时，该提醒会在弹出的窗口中显示。"
   },
   "alertSettingsWeb3ShimUsage": {
-    "message": "当网站尝试使用已经删除的 window.web3 API"
+    "message": "当网站尝试使用已经删除的 window.web3 API 时"
   },
   "alertSettingsWeb3ShimUsageDescription": {
     "message": "当您在浏览的网站尝试使用已经删除的 window.web3 API 时，该提醒会在弹出的窗口中显示。"
@@ -210,21 +210,21 @@
     "message": "允许这个外部扩展到："
   },
   "allowSpendToken": {
-    "message": "授予访问您的$1的权限？",
+    "message": "授予访问您的 $1 的权限？",
     "description": "$1 is the symbol of the token that are requesting to spend"
   },
   "allowThisSiteTo": {
     "message": "允许本网站："
   },
   "allowWithdrawAndSpend": {
-    "message": "允许 $1 提取和最多消费以下数额：",
+    "message": "允许 $1 提取和消费最高以下金额：",
     "description": "The url of the site that requested permission to 'withdraw and spend'"
   },
   "amount": {
-    "message": "数额"
+    "message": "金额"
   },
   "appDescription": {
-    "message": "以太坊浏览器插件",
+    "message": "浏览器中的以太坊钱包",
     "description": "The description of the application"
   },
   "appName": {
@@ -265,31 +265,31 @@
     "message": "资产"
   },
   "assetOptions": {
-    "message": "资源选项"
+    "message": "资产选项"
   },
   "assets": {
     "message": "资产"
   },
   "attemptToCancel": {
-    "message": "想要取消吗？"
+    "message": "尝试取消吗？"
   },
   "attemptToCancelDescription": {
-    "message": "确认提交该操作无法保证能够成功取消您的原始交易。如取消成功，您将被收取上述交易费。"
+    "message": "提交该操作无法保证能够成功取消您的原始交易。如取消成功，您将被收取上述交易费。"
   },
   "attemptingConnect": {
     "message": "正在尝试连接到区块链。"
   },
   "attributions": {
-    "message": "来源"
+    "message": "属性"
   },
   "authorizedPermissions": {
     "message": "您已授权以下权限"
   },
   "autoLockTimeLimit": {
-    "message": "自动锁定定时（分钟）"
+    "message": "自动锁定计时器（分钟）"
   },
   "autoLockTimeLimitDescription": {
-    "message": "请设置 MetaMask 自动锁定前的空闲时间（单位：分钟）"
+    "message": "设置 MetaMask 将被锁定前的空闲时间（单位：分钟）"
   },
   "average": {
     "message": "平均值"
@@ -301,7 +301,7 @@
     "message": "返回全部"
   },
   "backupApprovalInfo": {
-    "message": "如果不慎丢失个人设备，忘记密码，或者需要重新安装 MetaMask，亦或是需在另一台设备上打开钱包，请使用该保密码恢复个人钱包数据。"
+    "message": "如果不慎丢失个人设备，忘记密码，需要重新安装 MetaMask，或者需在另一台设备上访问钱包，使用此密码才能找回您的钱包。"
   },
   "backupApprovalNotice": {
     "message": "请备份您的账户助记词，保证您的钱包和资金安全。"
@@ -310,7 +310,7 @@
     "message": "立即备份"
   },
   "balance": {
-    "message": "余额 "
+    "message": "余额"
   },
   "balanceOutdated": {
     "message": "余额可能已过期"
@@ -322,23 +322,23 @@
     "message": "基本"
   },
   "betaMetamaskDescription": {
-    "message": "MetaMask受数百万人信任，是一个安全的钱包，使所有人都能访问网络3。"
+    "message": "MetaMask 深受数百万人的信赖，是一款安全的钱包，使所有人都能访问 web3。"
   },
   "betaMetamaskDescriptionExplanation": {
-    "message": "使用此版本来测试即将发布的功能。您的使用和反馈有助于我们构建最好可能版本MetaMask。 您对MetaMaskBeta的使用须遵守我们$1以及我们$2的标准。作为一种测试，出现错误的风险可能会增加。通过继续，您接受并承认这些风险，以及我们条款和测试版条款 (Terms and Beta Terms) 中发现的风险。",
+    "message": "使用此版本来测试即将发布的功能。您的使用和反馈有助于我们构建最好的 MetaMask 版本。您对 MetaMask 测试版的使用须遵守我们的标准 $1 以及我们的 $2。作为测试版，出现漏洞的风险可能会增加。继续即表示您接受并承认这些风险，以及我们条款和测试版条款中发现的风险。",
     "description": "$1 represents localization item betaMetamaskDescriptionExplanationTermsLinkText.  $2 represents localization item betaMetamaskDescriptionExplanationBetaTermsLinkText"
   },
   "betaMetamaskDescriptionExplanationBetaTermsLinkText": {
-    "message": "补充测试条款 (Supplemental Beta Terms)"
+    "message": "补充测试版条款"
   },
   "betaMetamaskDescriptionExplanationTermsLinkText": {
     "message": "条款"
   },
   "betaMetamaskVersion": {
-    "message": "MetaMask测试版本"
+    "message": "MetaMask 测试版本"
   },
   "betaWelcome": {
-    "message": "欢迎使用 MetaMask测试版"
+    "message": "欢迎使用 MetaMask 测试版"
   },
   "blockExplorerAccountAction": {
     "message": "账户",
@@ -366,13 +366,13 @@
     "message": "使用 Blockies Identicon 图标头像"
   },
   "browserNotSupported": {
-    "message": "您的浏览器不支持该功能……"
+    "message": "您的浏览器不受支持……"
   },
   "buildContactList": {
     "message": "建立您的联系人列表"
   },
   "builtAroundTheWorld": {
-    "message": "MetaMask是在世界各地设计和建造的。"
+    "message": "MetaMask 是在世界各地设计和建造的。"
   },
   "busy": {
     "message": "忙碌中"
@@ -384,13 +384,13 @@
     "message": "使用 Wyre 购买 ETH"
   },
   "buyWithWyreDescription": {
-    "message": "您可以通过 Wyre 使用信用卡将 ETH 存入您的 MetaMask 账户。"
+    "message": "您可以通过 Wyre 使用借记卡将 ETH 存入您的 MetaMask 账户。"
   },
   "bytes": {
     "message": "字节"
   },
   "canToggleInSettings": {
-    "message": "您可以在 设置 -> 提醒 中重新启用该提醒通知。"
+    "message": "您可以在“设置 -> 提醒”中重新启用该通知。"
   },
   "cancel": {
     "message": "取消"
@@ -420,7 +420,7 @@
     "message": "链路ID已经存在于现有的网络列表中。"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "您需要在谷歌浏览器（Google Chrome）上使用 MetaMask 才能连接到您的硬件钱包。"
+    "message": "您需要在 Google Chrome 上使用 MetaMask 以连接到您的硬件钱包。"
   },
   "clickToConnectLedgerViaWebHID": {
     "message": "点击这里通过WebHID连接到您的Ledger",
@@ -439,13 +439,13 @@
     "message": "确认密码"
   },
   "confirmRecoveryPhrase": {
-    "message": "请确认账户助记词"
+    "message": "确认助记词"
   },
   "confirmSecretBackupPhrase": {
-    "message": "请确认您的账户助记词"
+    "message": "确认您的助记词"
   },
   "confirmed": {
-    "message": "确认"
+    "message": "已确认"
   },
   "confusableUnicode": {
     "message": "'$1' 与 '$2' 相似。"
@@ -454,7 +454,7 @@
     "message": "找到零宽字符。"
   },
   "confusingEnsDomain": {
-    "message": "我们在ENS名称中检测到一个令人混淆的字符。请检查ENS名称以避免潜在骗案的可能。"
+    "message": "我们在 ENS 名称中检测到一个易被混淆的字符。请检查 ENS 名称以避免潜在的欺诈。"
   },
   "congratulations": {
     "message": "恭喜"
@@ -476,7 +476,7 @@
     "description": "$1 is the name/origin of a web3 site/application that the user can connect to metamask"
   },
   "connectToAll": {
-    "message": "连接到您的全部$1",
+    "message": "连接到您的全部 $1",
     "description": "$1 will be replaced by the translation of connectToAllAccounts"
   },
   "connectToAllAccounts": {
@@ -484,7 +484,7 @@
     "description": "will replace $1 in connectToAll, completing the sentence 'connect to all of your accounts', will be text that shows list of accounts on hover"
   },
   "connectToMultiple": {
-    "message": "连接到  $1",
+    "message": "连接到 $1",
     "description": "$1 will be replaced by the translation of connectToMultipleNumberOfAccounts"
   },
   "connectToMultipleNumberOfAccounts": {
