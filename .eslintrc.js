@@ -116,18 +116,9 @@ module.exports = {
       extends: [
         path.resolve(__dirname, '.eslintrc.base.js'),
         '@metamask/eslint-config-typescript',
-        'plugin:@typescript-eslint/recommended-requiring-type-checking',
         path.resolve(__dirname, '.eslintrc.typescript-compat.js'),
       ],
-      parserOptions: {
-        tsconfigRootDir: __dirname,
-        project: ['./tsconfig.json'],
-      },
       rules: {
-        // Turn this back on as per
-        // <https://github.com/alexgorbatchev/eslint-import-resolver-typescript>
-        'import/no-unresolved': 'error',
-
         // Disabled due to incompatibility with Record<string, unknown>.
         // See: <https://github.com/Microsoft/TypeScript/issues/15300#issuecomment-702872440>
         '@typescript-eslint/consistent-type-definitions': 'off',
@@ -150,7 +141,11 @@ module.exports = {
           // resolution algorithm. Note that due to how we've configured
           // TypeScript in `tsconfig.json`, we are able to import JavaScript
           // files from TypeScript files.
-          typescript: {},
+          typescript: {
+            // Always try to resolve types under `<root>/@types` directory even
+            // it doesn't contain any source code, like `@types/unist`
+            alwaysTryTypes: true,
+          },
         },
       },
     },

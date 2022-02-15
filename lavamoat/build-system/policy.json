@@ -2518,12 +2518,7 @@
       "builtin": {
         "assert": true,
         "events.EventEmitter": true,
-        "fs.lstat": true,
-        "fs.lstatSync": true,
-        "fs.readdir": true,
-        "fs.readdirSync": true,
-        "fs.stat": true,
-        "fs.statSync": true,
+        "fs": true,
         "path.join": true,
         "path.resolve": true,
         "util": true

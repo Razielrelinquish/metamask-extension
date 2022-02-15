@@ -20,7 +20,7 @@
     "**/*.test.tsx",
     ".storybook/**/*",
     "dist/**/*",
-    "node_modules/**/*"
+    "node_modules/**"
   ],
   "extends": "@tsconfig/node14/tsconfig.json",
   "include": [
